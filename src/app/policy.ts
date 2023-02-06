@@ -1,5 +1,5 @@
-export  class  Policy {
-    id: number | undefined;
-    number:  number | undefined;
-    amount:  number | undefined;
+export  interface  Policy {
+    id: number | null;
+    number:  number | null;
+    amount:  number | null;
 }
